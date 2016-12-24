@@ -24,6 +24,6 @@
     - php70w-pecl-imagick
     - php70w-fpm
   when:
-    - php_version == 56
+    - php_version == 70
   notify:
     - restart php-fpm
